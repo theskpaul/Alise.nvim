@@ -30,7 +30,7 @@ return {
 				"clangd",
 				"tsserver",
 				"pyright",
-				-- 'r_language_server',
+				"intelephense",
 			},
 		})
 
