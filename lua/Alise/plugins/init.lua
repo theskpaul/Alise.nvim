@@ -8,4 +8,5 @@ return {
 	{ "rose-pine/neovim", name = "rose-pine" },
 	{ "arcticicestudio/nord-vim" },
 	{ "Mofiqul/dracula.nvim" },
+	{ "mistricky/codesnap.nvim", build = "make" },
 }

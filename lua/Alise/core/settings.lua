@@ -1,4 +1,7 @@
 vim.cmd("let g:netrw_liststyle = 3")
+vim.diagnostic.config({
+	virtual_text = false,
+})
 
 local opt = vim.opt
 
@@ -8,6 +11,7 @@ opt.shiftwidth = 4
 opt.shiftround = true
 opt.expandtab = true
 opt.autoindent = true
+opt.softtabstop = 4
 
 -- Text Editing & Editor
 opt.relativenumber = true
